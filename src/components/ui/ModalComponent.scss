@@ -1,0 +1,177 @@
+$Laptop : 1440px;
+$SLaptop : 1200px;
+$Mobile : 900px;
+
+.Modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+    overflow-y: scroll;
+    animation: fadeIn .3s ease-in-out 0s 1 normal forwards;
+    .Modal__Exit{
+        
+        width: 100%;
+        height: 10%;
+        cursor: pointer;
+    }
+    .Modal__Container{
+        position: relative;
+        width: 100%;
+        min-height: 90vh;
+        background-color: white;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 80px 120px ;
+        animation: slideIn .3s ease-in-out forwards;
+        
+        .Modal__ContentHolder{
+            max-width: 1300px;
+            margin: auto;
+            height: 100%;
+            .Modal__HeaderContent{
+                margin-bottom: 40px;
+                .Modal__Title{
+                    color: var(--SecondaryColor);
+                margin-bottom: 10px;
+                }
+                .Modal__Infos{
+                    display: flex;
+                    @media (max-width: $Mobile) {
+                        flex-direction: column;
+                    }
+                    .Modal__Role{
+                        flex-grow: 1;
+                        color: var(--AccentColor);
+                    }
+                    .Modal__Calendar{
+                        color: var(--SecondaryColor);
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                    }
+
+                }
+            }
+            .imgFull{
+                width: 100%;
+                border-radius: 12px;
+                margin-bottom: 45px;
+            }
+            .Modal__FooterContent{
+                .Footer__Title{
+                    margin-top: 25px;
+                    margin-bottom: 10px;
+                    opacity: .8;
+                    font-size: 1.2rem;
+                }
+                p{
+                    text-align: justify;
+                }
+                .FooterContent__Tools{
+                    .Footer__ToolsList{
+                        display: flex; 
+                        gap: 10px;
+                        img{
+                            width: 1.7rem;
+                        }
+                    }
+                }
+            }
+        }
+        .Modal__NavHolder{
+            position: absolute;
+            right: 40px;
+            top: 0;
+            width: 40px;
+            height: 98%;
+            padding: 80px 0;
+            .Modal__Nav{
+                position: sticky;
+                top: 25px;
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    position: relative;
+                    margin-top: 25px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    .SVG{
+                        opacity: .5;
+                        fill: var(--SecondaryColor);
+                        height: 32px;
+                        width: 32px;
+                    }
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all .3s ease-in-out;
+                    }
+                    a:hover{
+                        opacity: 1;
+                        transform: scale(1.3);
+                        svg{
+                            fill: var(--AccentColor);
+                            fill: var(--AccentColor);
+                            opacity: 1;
+                        }
+                    }
+                }
+                div::after{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: calc(100% + 35px);
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 100vh;
+                    width: 5px;
+                    background-color: var(--SecondaryColor);
+                    opacity: .4;
+                    
+                }
+            }
+
+        }
+    }
+    @media (max-width: $SLaptop) {
+        .Modal__Exit{
+            display: none;
+        }
+        .Modal__Container{
+            border-radius: 0;
+            padding: 80px 120px  80px 20px; 
+            .Modal__NavHolder{
+                width: 30px;
+            }
+        }
+
+    }
+    
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.402);
+    }
+}
+@keyframes slideIn {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

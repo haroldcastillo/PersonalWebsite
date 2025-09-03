@@ -1,0 +1,51 @@
+.LogoAnimation{
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+.LogoAnimation::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: .5;
+    background-color: #03123D;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+.LogoAnimation::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: 0;
+    background-color: #03123D;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.LogoAnimation:hover::before{
+    opacity: .5;
+    width: calc(100% + 14px);
+    height: calc(100% + 14px);  
+}
+.LogoAnimation:hover::after{
+    opacity: .5;
+    width: calc(100% + 7px);
+    height: calc(100% + 7px);
+}

@@ -1,0 +1,50 @@
+
+$Laptop : 1440px;
+$SLaptop : 1200px;
+$Mobile : 900px;
+
+
+@media (max-width: $Laptop) {
+}
+#Navigation{
+    display: flex;
+    align-items: center;
+    padding: 25px var(--PaddingParentSection);
+    position: sticky;
+    top: 0;
+    #Logo{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+    #Links{
+        display: flex;
+        list-style: none;
+        left: 0;
+        gap: 25px;
+        a{
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(92, 91, 91); 
+            transition: all .3s ease-in-out;
+            @media (max-width: $Mobile) {
+                font-size: .8rem;
+            }
+        }
+        a:hover{
+            color: var(--AccentColor);
+        }
+        #Resume{
+            padding: .2em 1em;
+            border-radius: 5px;
+            border: 1px solid rgb(52, 52, 52);
+            transition: all .3s ease-in-out;
+        }
+        #Resume:hover{
+            background-color: var(--AccentColor);
+            border-color: var(--AccentColor);
+            color: white;
+        }
+    }
+}
+

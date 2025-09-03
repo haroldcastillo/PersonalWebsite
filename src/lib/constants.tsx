@@ -1,0 +1,348 @@
+interface ObjectData {
+    ID: string;
+    Type: string;
+    Title: string;
+    Role: string;
+    Date: string;
+    Image: string;
+    Description: string;
+    Illustrator: string;
+    Photoshop: string;
+    AfterEffects: string;
+    Figma: string;
+    XD: string;
+    Premier: string;
+}
+export const Data: ObjectData[] = [
+    // Types
+    // 1 UI
+    // 2 Logo
+    // 3 Posters
+    // 4 Merchandise
+    // 5 Infographics
+
+    {
+        ID: "0001",
+        Type: "1",
+        Title: "iCertify - Website Branding and UI UX Design",
+        Role: "UI UX Designer & Front-end Developer",
+        Date: "Oct 25, 2023",
+        Image: "UI_1",
+        Description:
+            "Introducing a cutting-edge web platform leveraging the power of NFT and blockchain technologies to revolutionize the distribution, collection, and authentication of academic credentials. This visionary project is a response to contemporary challenges such as document forgery, data tampering, the fragility of physical records, and the enhancement of corporate efficiency. Drawing inspiration from real-world scenarios at esteemed institutions like Sta. Elena High School, Sto. Nino National High School, and Burgos Elementary School, our mission is to redefine the academic credential ecosystem. Our primary goal is to provide employers with a sophisticated tool that effortlessly verifies the authenticity of applicants academic records, thereby elevating industry standards. Beyond authentication, we aspire to empower students, professionals, and educational institutions alike by offering an elegant solution for securely storing, organizing, and preserving their valuable documents. In essence, our design-centric approach ensures a seamless blend of functionality and aesthetics, setting new standards in the realm of academic credential management.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "1",
+        Premier: "",
+    },
+    {
+        ID: "0002",
+        Type: "1",
+        Title: "Chrystarin - Portfolio Website",
+        Role: "UI UX Designer & Graphic Designer",
+        Date: "Oct 25, 2023",
+        Image: "UI_2",
+        Description:
+            "I designed Chrystarin's portfolio, I'm thrilled to unveil our vision for her online presence. Our design approach revolves around the fusion of modern elegance and artistic creativity, tailored to authentically represent Chrystarin's personality. A meticulously curated color palette will resonate with her brand identity, while typography choices will strike a balance between sophistication and readability. User experience is at the forefront of our design philosophy, with a user-friendly navigation structure featuring clear menu items like Projects, About, Contact, and Social Media. What's more, our commitment to a responsive design ensures that visitors can seamlessly explore Chrystarin's work across all devices, enhancing accessibility to a wider audience.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "1",
+        Premier: "",
+    },
+    {
+        ID: "0003",
+        Type: "1",
+        Title: "My Arcadia - Game User Interface",
+        Role: "UI UX Designer & Graphic Designer",
+        Date: "Sept 24, 2000",
+        Image: "UI_3",
+        Description:
+            "Designing the user interface (UI) for My Arcadia, a dating simulation game featuring three adorable characters, is an exciting endeavor that revolves around creating an immersive and engaging experience for players. The primary objective here is to craft an interface that not only complements the game's romantic narrative but also provides players with intuitive controls and a delightful visual journey. ",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "1",
+        Premier: "",
+    },
+    {
+        ID: "0004",
+        Type: "1",
+        Title: "Shirt Me - User Interface Design Concept",
+        Role: "UI UX Designer & Graphic Designer",
+        Date: "July 2023",
+        Image: "UI_4",
+        Description:
+            "Introducing the concept design for Shirt Me, an innovative e-commerce website dedicated to simplifying the process of purchasing high-quality shirts while offering a seamless and enjoyable shopping experience. At the heart of this design is the philosophy that selecting the perfect shirt should be easy, enjoyable, and highly customizable, catering to individual preferences for size and color",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "1",
+        Premier: "",
+    },
+    {
+        ID: "0005",
+        Type: "1",
+        Title: "SIP Web Application - User Interface Design Concept",
+        Role: "UI UX Designer & Front-end Developer",
+        Date: "July 2023",
+        Image: "UI_5",
+        Description:
+            "Introducing our student intervention program website, a dynamic and essential tool designed to empower teachers and educators in our school community. This innovative platform has been meticulously crafted to assist teachers in efficiently monitoring and managing student offense records. Our primary goal is to foster a safe and conducive learning environment while providing valuable insights and support for students who may need intervention and guidance.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "1",
+        Premier: "",
+    },
+
+    {
+        ID: "0011",
+        Type: "2",
+        Title: "ARK RUNE KNIGHTS - BRANDING",
+        Role: "Logo Designer & Co-founder ",
+        Date: "October 17, 2021",
+        Image: "https://uc141f806b1d36bfa71eef3ae102.previews.dropboxusercontent.com/p/thumb/ACAZponK8ZBxGqciw73Gya5GKImckAvv7D9BVrrumwdbevLJwtVNA1AKip9KUuD4DnjXZKh1vHYcTNTD1_S_xEc_pnV2XjnXtaXdg3E9U6epkE0GWUcMUEfziKiiUJoEpmWACYmRYyu5r99v2uw2GXHzCgMb81pD9iJqgJ1pN8sS6sy4DGBpbyzCXB1MSbR2SQlEaZa3V4R0b8XMg2kE183pXGiOlcMbUcZRmCdlZAv8BStMdiZhiN6iy4MfqjKmYZ-2pBhw1YVgmAvwI85Ge9EAnupiCOVrfA7FSOi3SE8F_dB8R4gOeor6kL31Sn0HtRZzpGJbt5RyXHe3ZMbJUqkE-LPZuVTsJebGZJLWg5ctONys4eV7Ow9r3ty5-r0AuME/p.jpeg",
+        Description:
+            "ARK RUNE KNIGHTS is a groundbreaking organization focused on Web 3 games and decentralized applications (DAPPs). Their logo, a combination mark, blends modern text with a symbol embodying tradition and technology. The symbol features an ark, rune, and knight's helm, representing preservation, ancient knowledge, and guardianship in the digital realm. This innovative approach seeks to empower gamers with true ownership of in-game assets, ensuring security and fairness while revolutionizing the gaming industry. ARK RUNE KNIGHTS is at the forefront of Web 3 gaming, where transparency, decentralization, and player empowerment define the future of immersive gaming experiences.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0012",
+        Type: "2",
+        Title: "Chuunnibyou Logo",
+        Role: "Logo Designer",
+        Date: "March 29, 2021",
+        Image: "https://uced10a7e5b96037912ccbcd5788.previews.dropboxusercontent.com/p/thumb/ACAUzzkLtUxRRkVwqyPnBE57OwBUXOfMhoHv3g-aslfBsuuYdgnGucvL-nIaSvdoPWJVUyuo8qaxB4vAn59U4h_Kxd_SLUHni7av8YGy0ydEHdgfIrqlKKR59ZsnSNdH7hFKc_kY8w7JJkhRL1arJGHufMuzCA15ffEd7P3c4JM50p1j85lExZwLFgDY2IuPNcDNUddUrYmgf6RvdK0Ub6bmmXndjAegxFLQMvA6TLGPKTz5muAsVGgqSMWciXWGbsRYco444jeZk4KMn5nYMCRFh-9Sm8PYxyL03UGa365rt_5yFes5cpHF8tespuh6vdt_WQwS2veA1hEDYLCuW2z4dx64F8GWB6oJW_DS2j4-thDnkJxlAGx3UpHzWEAZ4d0/p.jpeg",
+        Description:
+            "Introducing my debut Fiverr logo project, a creation tailored for a group of friends who share a deep passion for anime and gaming under the name Chuunibyou. In crafting this logo, I sought to encapsulate the essence of this unique group's interests. The design revolves around vibrant and playful elements drawn from the world of anime and gaming, featuring dynamic typography with an anime-inspired aesthetic, complemented by colorful gaming motifs and icons. By collaborating closely with the client throughout the project, I ensured that their vision was intricately woven into the final design. The resulting logo not only reflects their shared enthusiasm for anime and gaming but also serves as a unifying emblem that celebrates their camaraderie and shared interests.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0013",
+        Type: "2",
+        Title: "Chrystarin Logo",
+        Role: "Logo Designer",
+        Date: "June 11, 2021",
+        Image: "https://ucc0cedba33926fda42e7a3d7bc9.previews.dropboxusercontent.com/p/thumb/ACAYxSLAwx2DB3ZSFCZubJuiWgFFPYlZOS_SXGvYpS0z7abOyuRKXYh1vMQLzdGhrCLbA7z3M8JMlXbw61izkkBlXrbZ8YnsWZCjyquIHMxj4WaOPV0zyj91unXn8b2De8gY1-WLgVFBDQAaOYwaNyLY7znbmv7P0_30ZC_P4077pp_xtHFYthS5FxzLsgAcmYX-Ah2LNCx3wOH1uP1_yGuT9Bz1TCdd8aHZkY5EOhkI5yf8QHjX3mZIbfIAeFvbzQjiSCup4un8mlyy9QJ2VL9L-anmZRikDbx_3oCLmpwNm9B6X1k3ixPQ1txqHB3i4GArSQUZq_FEBbF2uFjg_cAF3xLKoFahdGtgC7NNG7Hw4n5WNOg31jripP5H3Ku-iEw/p.jpeg    ",
+        Description:
+            "I'm excited to present the logo I created for Chrystarin, a design uniquely tailored to reflect her personality, hobbies, and goals. Drawing inspiration from her vibrant and dynamic character, the logo features a combination of bold, flowing lines and energetic color schemes that capture her vivacity and enthusiasm. Incorporating elements from her hobbies and interests, such as subtle nods to her favorite activities or symbols, this logo aims to resonate with her on a personal level. Additionally, the design is strategically crafted to align with her professional aspirations and goals, ensuring that it not only represents her on a personal level but also sets the stage for her success. Chrystarin's new logo serves as a visual embodiment of her identity and aspirations, setting her on a path to stand out and achieve her objectives.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0014",
+        Type: "2",
+        Title: "Fist of Justice - Logo Design Concept",
+        Role: "Logo Designer",
+        Date: "August 31, 2021",
+        Image: "https://ucf51a9ed6600480ed0684dec536.previews.dropboxusercontent.com/p/thumb/ACBCzoHMZ9oDqYO5WoRrPdzDdomPuT3eazAK8pNr4PoDj24hzgXFdrPd6KQnAFcftBjJe0qbkYz8hDKmEgqyDubT1dH-dkbafI8hDQ5cazEMJWr56YxZ8PO6etfv2UamzGctYE3Vh8yr20n2bE7q11g7ME2uJ9v_Ozl4BOYgA7_OeyWEJsAyK1t1Jz9PoStbRQAaucc1vi2kgJpsI3itZNHiWNBTVXhwhlqscAcTVy8w3PVZW_Jsf4bw91K5m0OOhOXFPXXJHe4U0glPkJAfc6Hx7C0WJzIWNlaIIRKSWlIgL_jJ01FHbyy-RUnscao9rFZyR27llwJxhwNf8ZQXj_Mj0egCDUCTAuVOuE8uTgWsIgfed1qsLsPgw_xdHPqIr-I/p.jpeg",
+        Description:
+            "Introducing the Fist of Justice logo concept, a symbol of strength and justice conveyed through a powerful clenched fist raised in solidarity. With a bold color palette of deep blue and fiery red, this emblem embodies trust, courage, and the pursuit of justice, while a modern font exudes authority and professionalism. The logo's balanced composition and adaptability make it suitable for a wide range of applications, from corporate branding to social justice initiatives. It serves as a visual representation of the unwavering commitment to upholding fairness and righteousness, making it an ideal choice for those dedicated to the cause of justice.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0015",
+        Type: "2",
+        Title: "Froythena - Logo Design",
+        Role: "Logo Designer",
+        Date: "November 2, 2020",
+        Image: "https://uccbaa691cdb691840f74c695426.previews.dropboxusercontent.com/p/thumb/ACCbDXrFkyotDGq1Y3x3uiH6p4MpoN1Cvcn_hQlJtYOSzkb9nnUInixq8BjW2xgHwDF0ciUyvB6StHs2r80xcgpxrsMJMRo_8wwCRhtYuMb1XvNrWVzp1zNiqYQFFQMfhPnSEe7w-hKGDVVl-WTWO7c2m-Oy05wG-tE92M-aLVZhtoanZsvYriZoQ213AoEfGlm1OvyOmRFZlemCJScoNRYHDUCB_57iBJV-t_3BLYfVrKhxFsoHu6AEab_TjJeTUvG-13VICOpnNViO_oqroMDVj3PL5wRFP8NzFuuf_y1he4HIOJgM2q8uxzDuKOaISI_7KO_-0jciiEebFuf-jCqa2IRi7wszzl8M5jvjQLGf0dc_Pl52BWhUmu901gxsOCg/p.jpeg",
+        Description:
+            "Allow me to introduce Froythena, my first client in the culinary world. Froythena is a pioneering food brand that masterfully transforms shiitake mushrooms into a range of delectable dishes. With a commitment to both taste and health, Froythena's menu boasts signature creations how casing the versatility of this nutrient-rich ingredient. Froythena's dedication to sustainability and its culinary innovation promise an exciting journey in the world of gourmet food, turning the unassuming shiitake into a culinary superstar.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0016",
+        Type: "2",
+        Title: "ICT Society SR",
+        Role: "Logo Designer - Head Design Committee",
+        Date: "September 28, 2022",
+        Image: "https://ucd65db3cb3f5e1e119ae8be7b41.previews.dropboxusercontent.com/p/thumb/ACA3P1rZP3AEbMB5OW5Uh0GBsKnIErvVg1eSR54VzTGC80KdIkOeIpmS1LXiRnlP72etmFR3bLcfysSCsJhEUaAAar3eY1Di9Zz5HtXUo6vskOhRsYaoOc5D--wHnx3SHwFAp0GWDu52qJzETLCqyKz20mOBqi4aHq9Yuc5OEbtsZyLzRjy774TCG-Q6ykkZ_M-xdINe4RDnZz2h7Jztneahs1aVCsRSbyWYfpWIEo0jCuCi9sycTIMwqnHCqoD6Hh2qJ_Ye3jr1VQIStHP_EgFU5x80z0CoWXHliAnDxxJp0hgCLJCk-6GGtdEu2Wl6JA9MMxSEkhKxihDNPjAeoSW7qUNKm_CV-HGVxm__g9sRyn4lq-Wzb_1NxJryad78WiM/p.jpeg",
+        Description:
+            "Allow me to introduce Froythena, my first client in the culinary world. Froythena is a pioneering food brand that masterfully transforms shiitake mushrooms into a range of delectable dishes. With a commitment to both taste and health, Froythena's menu boasts signature creations like shiitake mushroom risotto and stuffed shiitake caps, showcasing the versatility of this nutrient-rich ingredient. Froythena's dedication to sustainability and its culinary innovation promise an exciting journey in the world of gourmet food, turning the unassuming shiitake into a culinary superstar.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0017",
+        Type: "2",
+        Title: "Top Frag - Logo Design",
+        Role: "Logo Designer",
+        Date: "October 3, 2020",
+        Image: "https://uc80a3e2dbf7592a6ee5d9b6290a.previews.dropboxusercontent.com/p/thumb/ACB7H0sP_KaYiQPtF3Lo4d_ZieWs6rtY59ZjB5sASHuVvqLOrX3QoYTQzyZ4e7KPIPKOhLU2Eloe4O6LJ09jduz0mTnUXrB6tsHI-lybGPaobfuPT5wbzvSa57JJxLIwtT3PRKl5cvjHNVIQ_0F_CnmB-bNN5W3Bdn21xShZIy6Ks0FevfrirC4lMJx_kvjkhHfJBtjQt9GJzgIYskLOFwPyrsq4t-iurgE01gmvXBhsvQHhwpyqddnTYenwyqYrnKzfQjVAWsFYMu3d20WHY6WQ48Tc4a6KFj_Oy8fYN4uGwGR_6obUQGn-A6tdyRiWSoEYj4EiRWbFE3VFRUal-iNFKqeZ4lNqraUfFAjACTzK8qDSWE4IMMb25YJYF9hSDNE/p.jpeg",
+        Description:
+            "Introducing the TOPFRAG logo, a dynamic emblem that embodies gaming excellence and the excitement of incredible plays showcased on its YouTube channel. With a stylized crosshair symbolizing precision and skill, vibrant reds, and modern typography, this logo captures the fast-paced, intense world of gaming excellence. It serves as an inviting gateway to the thrilling montages of incredible game clips, making TOPFRAG a must-visit destination for gaming enthusiasts seeking top-level gameplay achievements and excitement.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+
+    {
+        ID: "0021",
+        Type: "3",
+        Title: "Chrystarin Posters Projects",
+        Role: "Graphic Designer",
+        Date: "2020 - 2023",
+        Image: "https://uc7f0fab1a3d089d8d42560291b5.previews.dropboxusercontent.com/p/thumb/ACD8egIneQt4rIjoXTLtyunQ3K3Bs8oA6wtxIyZDxLfmkwFAOqNNVc5lYa_YnpnkK9AdTjcwEwfP8fg9_IFd_QzgVWwG2owZAntK2cJd5SkpJo78yKFP-GJzvHj72SSqn-QXrX_xuDLmanp6lAuzvXaQ-LrH6OTcqwQpvQSSHg7BeU35canhN0izRkXXDK2OVTj_0LeDuKIgj6XojqUVgeeZUH3Tiu0mgjpfEdr2leYAV50vchGP_2ZYFf4jEKa5w0LWmMVj2EHp9EB6NwwLPwvpq8Od0zb5Lx7a2zEqCJPJzPFz3NA6_Cxfqwel_OoGdvf9se4RzOuaSkw4IAh2n01HeWz4S97VnVrL8a8Sn2jn4LtpMW93SBYQ6CFP2VJyVgH2n4ZBQ7RkaLMYNAsrhBr-/p.jpeg",
+        Description:
+            "I am delighted to introduce the collection of stunning posters I've designed for Chrystarin's page. Each poster is a vibrant blend of captivating visuals and thoughtfully crafted messages, reflecting Chrystarin's unique personality, passions, and vision. From eye-catching event promotions to motivational quotes that inspire, these posters are a testament to our commitment to creating engaging and visually appealing content that resonates with her audience. We believe these posters will not only enhance Chrystarin's page but also leave a lasting impression on her followers, inviting them to be a part of her journey and the inspiring world she curates.",
+        Illustrator: "1",
+        Photoshop: "",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0022",
+        Type: "3",
+        Title: "Western Bicutan Posters",
+        Role: "Graphic Designer",
+        Date: "2020 - 2023",
+        Image: "https://uc36b99c71afd270dc9cb75957ad.previews.dropboxusercontent.com/p/thumb/ACCRfLZkql8UGhIxuFnWSPjf8NQhc1-C6PCx3mys8QmqE6BA-4pQ4aD7Aa3R3HA2FEwwpiMoLJfAFlLAhCw86y0R2611R6Oem-qOMSQ2SThaBep682ImfXA3RAKmfcYnQR7cs2TD3fbB2IJHDqReP3eb9jI547sLA1PMTev-jZe13bSgW6X_MK4-FSjXGTS1f7q9Y2Ixe7WFUopQpLqR0Hpa2UrWUYO_QaG6dML4pl4uSSpETpd62Q6g26zkQePGFLS-qSSuqH6xVx1nxmoI3HpsNhS3qXySaWN157jhw3PXS9EANOuvcZHDGdG7sMZUUcYpCZ7E5aLKAbMkdPZjWc6Phou6hU-7Z9-7gloZUqEwqTnuuOB3Juyog1GVShvQa9I/p.jpeg",
+        Description:
+            "I'm excited to showcase the array of posters I designed during my time working in Western Bicutan. These posters are a testament to the dedication and creativity I poured into my work while being a part of that community. Each poster tells a unique story, from promoting local events that brought the community together to sharing important messages that resonated with the residents. They not only captured the essence of Western Bicutan but also served as a means of communication and engagement. These posters were a significant part of my journey there, and I hope they continue to inspire and connect with the people of Western Bicutan.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0023",
+        Type: "3",
+        Title: "Personal Projects",
+        Role: "Graphic Designer",
+        Date: "2020 - 2023",
+        Image: "https://uc5a915a5d714c5e3e3f7c9afda3.previews.dropboxusercontent.com/p/thumb/ACAk2kHss-vk54c--hDbYl3A3prz84xn8rJei6gaIBDFX4E0vpH9U_ulHSvNqn200x4lKWLoGi89IesC8vAm_Y2UnWYfMipXxRFQMK3AhE1wBfNagGGVUCfdKr_OHO6qupeJsnoX0W3odW3N5SDQWF6CCwTnC2DH7FvXe5od2WomJJQ3qURsv0dNWinB-wQayVq5YumSZtLyB4e8fvg0FXl3CodxVRljTfK9cmZlcXM1UeDPlo0f7Yk5zGVwBasEloZ7jxIAX4yn964EcanCtx2KV9XvdRoCCmMZbSamhyEzkcrZERXT80sRz03OavotazGp5wGdtI08xY5T_6Bbm-_OKVY9u4U6s34rSrn0OcWceSZ5pTC_-XPKIwb5es9hZAY/p.jpeg",
+        Description:
+            "Allow me to present a collection of posters I've created as part of my personal projects, aimed at exploring and honing my design skills. Each poster reflects my dedication to continuous learning and creative growth. They span various themes, from typography experiments to conceptual art pieces, showcasing my versatility and passion for graphic design. Through these projects, I've not only expanded my skill set but also discovered new ways to express my artistic vision. I believe these posters serve as a testament to my commitment to self-improvement and my unwavering enthusiasm for the world of design.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+
+    {
+        ID: "0031",
+        Type: "4",
+        Title: "Projects Merch",
+        Role: "Graphic Designer",
+        Date: "April 16, 2021",
+        Image: "https://ucb27910663f2d550e3f6ab32e8c.previews.dropboxusercontent.com/p/thumb/ACDpNW_F9pX766qtGBOQp5m28MzYJXwLxfbYZX9dn0kNtg3q6zd4k3mBnaD5R8yTpOgb7k7UP3fuFGgaNLWh7-khn_VxTp2tVNPo4KrodT35jV1GrAC_wUUQwSmy3LySHbWY1YV64VTfTCuFTDvJm1yjyFJZi8AhyBqi4R4szIcO7JR9VcbzKYF3Ai2jWdtddJeo0iul-0KODCMN4GKXpOiPaGdzawd6ag28l1Bi07icd_gonzisa1jpF35BOiVBKM-Chqm2DJfkwsHmL43z8vYasG5UhwFHKKQbjr5VojR6sejSoSjz5Kf3GYt8fveWQ-aMzLF5HoFh2VtIuW_mslEIjFcqSvwAa7DXOkaQzVtm8Kpn_dRz8TlQiDWscQ8J98M/p.jpeg",
+        Description:
+            "My first experience using mockups to showcase my work was nothing short of transformative. It was like stepping into a realm where my creations came to life, as if they were tangible products in the real world. Seeing my designs displayed on mockups of packaging, posters, or websites added a layer of authenticity and professionalism to my portfolio. It not only allowed me to present my work to clients and colleagues with a heightened sense of realism but also gave me valuable insights into how my designs would function in real-life scenarios. This experience underscored the importance of attention to detail in design, as even the smallest nuances in the mockups could greatly impact the overall perception of the work. It was a pivotal moment in my design journey, sparking a deeper appreciation for the power of mockups in bringing design concepts to life and enhancing their visual impact.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0032",
+        Type: "4",
+        Title: "Car Mockups Merch",
+        Role: "Graphic Designer",
+        Date: "April 16, 2021",
+        Image: "https://uccd5fc97f5ebddaabf29083603e.previews.dropboxusercontent.com/p/thumb/ACCWOO5OoPDjvctMFFhpySAm6b5gJG_NcTmcJqlcOLeMfsP4BMSMGpjBzqbcGuMlS2otAJOLye4hePXOm1OrQpGBkMnylEwu1OqasjfOyM3e_V6qHPhhtS8w9T94h1-CRmPBiy-SP9pqJYZmFhhrvO0mi2VHEh347GAffmFk2iIUVIVyoVF0rsDMt5-rkdBU1z0RJy4rmbLoi9OYi_abngj0-86wXmdL5QtbU3khRCLsqtcbLjWkiwLaJBfTLNhDiNtDBYjlHa--tSxp7pZ_iz2DIn7ho-6wOeIqINy5Dduxd0HPADurjOoDFVbSDM3lP29ELYWvXELpAh624RHKpkwT8516rNiGLeudjB_Cmm4dc88wSxZBdP-9vP0L31OEF6ZMjGuAgLdrYdpVf7aNOTVBPA16_7irR8jX6h-L9GLCVc4ioontX2oh2T-NZBxHXKY/p.jpeg",
+        Description:
+            "Creating my first mockup for a car was an exhilarating and eye-opening experience. It required an intricate understanding of automotive design principles, proportions, and aesthetics. As I meticulously crafted the digital model of the car, I became acutely aware of the importance of accuracy in every detail, from the curves of the bodywork to the placement of the headlights. It was a creative challenge that pushed my design skills to the limit, demanding precision and attention to every line and contour. Once the mockup was complete, I was amazed by how it transformed my initial concept into a lifelike representation, allowing me to visualize the car as if it were ready to hit the road. This experience not only deepened my appreciation for automotive design but also honed my ability to translate complex ideas into visually compelling and realistic mockups, a skill that I continue to use and refine in my design work today.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+
+    {
+        ID: "0041",
+        Type: "5",
+        Title: "Let's learn what is color - Infographics",
+        Role: "Graphic Designer",
+        Date: "April 16, 2021",
+        Image: "https://ucf6fce02ec9d31962052b0547da.previews.dropboxusercontent.com/p/thumb/ACB4sT19akh1YY8wqcLgvCzeA0oYiwDHeBKXMcQeNX_v1JnqUiJeykfj7JVDBEoOzX7MIUJ5yEfkImEHGPv7HcHpVjnJhwha_vPgP3d_1D5oMiYWlK1aw5o0Mzt4T1UvX_Rz5Dj1zEWsN0_Z5iXuq6gfdlj7-9whOQGCAOyyMAebIYQzr0EJjyjo54WtoFwVvWQ7KG1LjHQS_hiiwgTwkXYSleZNHkfefF2bP4lnZRNLL19voSb1-gkeEwlybt_G_XywJiw6TuK0vfzxwJjyuA_2D3THx7HFxAucPjfjxe4-bk5B-T4Z8Wj-tlisOygjdxk1FLwVzE5wWHC0V90O5UV7MTAwmJzbtpOdeidYmdXIbANsT7cJmi6PRkEjRfyIbs0/p.jpeg",
+        Description:
+            "Color is a fundamental and indispensable element in design, holding the power to evoke emotions, convey messages, and establish brand identities. It plays a pivotal role in shaping the visual experience and perception of a design, influencing how an audience connects with it on both conscious and subconscious levels. The careful selection and harmonious use of colors can enhance readability, guide user behavior, and create a cohesive and memorable aesthetic. Whether it's for branding, web design, marketing materials, or any visual communication, understanding the psychology and impact of colors is crucial for designers to effectively communicate their intended message, trigger desired emotions, and leave a lasting impression on their audience.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0042",
+        Type: "5",
+        Title: "Let's learn what is shape - Infographics",
+        Role: "Graphic Designer",
+        Date: "May 30, 2021",
+        Image: "https://uc1785e1df77a0c0143ed94755b1.previews.dropboxusercontent.com/p/thumb/ACCpOeIGz4w7NUvF7UJ6WhKfa35P15cbnqhVjqBhJOxyd0LwVcMfIn-w6jf20LVeQ1e8GguYH-NSO4QuS0gL37OY9Bw2TmVldqNpSNyXW0ic65OD6J-qdnZACIcZdtLdFIXhFk2Nn9QliEtEBgEZqnbl7H6YNmZTuPGjb5GQsjFZgb2wUzmhf3OPfoxqfFfMDIpRrFgzSRLOmWpsSQB8tcBzKEIW6WLiFfrXQHrmRzSbSwIkZW-wgUcfdI7ZRzHot99nTc5gdVJxewps1F1RzFzqK91r4UY3f4DmFy5n7O-dw8sATPjezMD0mGgAiE3qtthZRoryL0chKiGI6qMyF2QGd7bsAwmEKBOBvfdWQTc-pTFTfjCtxV-tm7XoOhW8a4w/p.jpeg",
+        Description:
+            "The importance of shape in design principles cannot be overstated. Shapes serve as the building blocks of visual communication, helping to convey meaning, establish structure, and guide the viewer's eye. They play a vital role in defining the overall composition and hierarchy within a design, whether it's through the use of geometric shapes for order and precision or organic shapes to convey fluidity and emotion. The choice of shapes also holds cultural and psychological significance, influencing how a design is perceived and interpreted. Whether in logo design, layout composition, or user interface elements, the thoughtful consideration and manipulation of shapes are essential for creating visually appealing and effective designs that resonate with the intended audience.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+    {
+        ID: "0043",
+        Type: "5",
+        Title: "Challenges of millenials and fillenials - Infographics",
+        Role: "Graphic Designer",
+        Date: "2020 - 2023",
+        Image: "https://uc26442efc7ccac655b884ac6a9b.previews.dropboxusercontent.com/p/thumb/ACD3HaYZ4AsU_xqZf8Ho3OgAhuMrdqbk7goOFbbTxC-58rDjlvSzNhq3EIgCRNEkd0QHNczQ_faCvUCO7IYbBb6Jjp68oveWwPngykjqGXfHnhWXEMPzdCsApVhcmv5CYdg9m8iwnaZanwh5XHzCz_HaJ9ZPfQrYh5CSkszmg5oyV02JDQNWQRdWDQVvZEKL1XJ0cJL1-vtvvSCTlSLTw91SYClYWKSlKBjTyS3zOhbdw0omkfhallDU7bDbSpeElssnlgAB_nejOAkvTSdYxMTuM35MrV_W4b6lCg9x6OoH_0Hf-XBdawJipre7L5o6Ak-zVbk447PgZRFZ5u2EPV2jCp8ALPg0ZJlDapDjaDVa-vyyvdllptcFq7WApGkkgGA/p.jpeg",
+        Description:
+            "Understanding the challenges faced by millennials is crucial in today's world as they represent a significant demographic group. By recognizing and addressing these challenges, we can foster better communication, empathy, and support systems. Millennials have grappled with issues like economic instability, student loan debt, and rapidly evolving job markets, which can impact their financial well-being and career opportunities. Additionally, they are navigating the digital age, which brings both opportunities and challenges related to technology, social media, and mental health. Being aware of these challenges allows us to create inclusive workplaces, educational environments, and policies that empower millennials to thrive and contribute positively to society. It's essential for businesses, educators, policymakers, and society at large to engage with and support millennials as they navigate these unique challenges.",
+        Illustrator: "1",
+        Photoshop: "1",
+        AfterEffects: "",
+        Figma: "",
+        XD: "",
+        Premier: "",
+    },
+];

@@ -1,0 +1,140 @@
+$Laptop : 1440px;
+$SLaptop : 1200px;
+$Mobile : 900px;
+$SMobile : 500px;
+
+
+.FooterContainer{
+    background-color: #151B22;
+    margin-top: 200px;
+    .FooterHolder{
+        max-width: 1850px;
+        width: 100%;
+        margin: auto;
+        padding:0 var(--PaddingParentSection);
+        .Footer__ReachOut{
+            height: 150px;
+            background-color: #03123D;
+            border-radius: 15px;
+            transform: translateY(-75px);
+            display: flex;
+            align-items: center;
+            color: white;
+            padding: 0  75px 0 ;
+            @media (max-width: $Mobile){
+                flex-direction: column;
+                padding: 2em;
+                height: unset;
+                gap: 45px;
+            }
+            div{
+                flex-grow: 1;
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+            }
+        }
+        .Footer__Content{
+            padding: 2em 75px;
+            display: flex;
+            gap: 150px;
+            .Footer__Logo{
+                flex-grow: 1;
+                img{
+                    width: 180px;
+                }
+            }
+            .FooterRight{
+                display: flex;
+                gap: 85px;
+                .Footer__SiteMap{
+                
+                }
+                .Footer__SocialMedia{
+                    .Footer__SMList{
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 25px;
+                        a{
+                            opacity: .8;
+                            svg{
+                                width: 20px;
+                                height: 20px;
+                                fill: white;
+                            }
+                        }
+                        a:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .Footer__Title{
+                opacity: .5;
+                color: white;
+            }
+            .Footer__List{
+                padding: 0;
+                margin-top: 10px;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                
+                p{
+                    opacity: .8;
+                    color: white;
+                }
+                p:hover{
+                    opacity: 1;
+                    
+                }
+            }
+        }
+    }
+    @media (max-width: $SLaptop) {
+        .FooterHolder{
+            padding:0 var(--PaddingContent);
+            .Footer__Content{
+                .FooterRight{
+                    flex-direction: column;
+                    gap: 40px;
+                    .Footer__List{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    @media (max-width: $Mobile) {
+        .FooterHolder{
+            .Footer__Content{
+                gap: 80px;
+                padding: 55px var(--PaddingParentSection) 45px;
+                .Footer__Title{
+                }
+                .Footer__List{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+    @media (max-width: $SMobile){
+        .FooterHolder{
+            .Footer__Content{
+                flex-direction: column;
+                .Footer__Title{
+                }
+                .Footer__List{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
